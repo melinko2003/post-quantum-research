@@ -94,27 +94,27 @@ Command to view all algorithms available: `openssl list -signature-algorithms -p
 ### How to sign a new x509 test certificate
 #### falcon1024
 ```
-openssl req -verbose -x509 -new -newkey falcon1024 -keyout falcon1024.key -out falcon1024.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default 
+openssl req -verbose -x509 -new -newkey falcon1024 -keyout falcon1024.key -out falcon1024.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default 
 ```
 #### p521_falcon1024
 ```
-openssl req -verbose -x509 -new -newkey p521_falcon1024 -keyout p521_falcon1024.key -out p521_falcon1024.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default 
+openssl req -verbose -x509 -new -newkey p521_falcon1024 -keyout p521_falcon1024.key -out p521_falcon1024.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default 
 ```
 #### sphincsshake256256fsimple
 ```
-openssl req -verbose -x509 -new -newkey sphincsshake256256fsimple -keyout sphincsshake256256fsimple.key -out sphincsshake256256fsimple.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
+openssl req -verbose -x509 -new -newkey sphincsshake256256fsimple -keyout sphincsshake256256fsimple.key -out sphincsshake256256fsimple.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
 ```
 #### p521_dilithium5_aes
 ```
-openssl req -verbose -x509 -new -newkey p521_dilithium5_aes -keyout p521_dilithium5_aes.key -out p521_dilithium5_aes.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
+openssl req -verbose -x509 -new -newkey p521_dilithium5_aes -keyout p521_dilithium5_aes.key -out p521_dilithium5_aes.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
 ```
 #### dilithium5_aes
 ```
-openssl req -verbose -x509 -new -newkey dilithium5_aes -keyout dilithium5_aes.key -out dilithium5_aes.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
+openssl req -verbose -x509 -new -newkey dilithium5_aes -keyout dilithium5_aes.key -out dilithium5_aes.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
 ```
 #### dilithium5
 ```
-openssl req -verbose -x509 -new -newkey dilithium5 -keyout dilithium5.key -out dilithium5.crt -nodes -subj '/CN=GoDaddy PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
+openssl req -verbose -x509 -new -newkey dilithium5 -keyout dilithium5.key -out dilithium5.crt -nodes -subj '/CN=PQC Root Generation 1' -days 365 -config /vagrant/etc/openssl-oqs.cnf -provider oqsprovider -provider default
 ```
 ### How to view a certificate
 ```

@@ -1,4 +1,4 @@
-![OQS Image](../assets/oqs-banner-logo.png)
+![OQS Image](https://github.com/melinko2003/research-assets/blob/main/images/oqs-banner-logo.png)
 # Open Quantum Safe Library ( liboqs )
 URL: https://github.com/open-quantum-safe/liboqs  
 This implementation at this point seems fairly complete.  
@@ -58,7 +58,9 @@ I've prepared `build_latest_oqs.sh` that will `git clone` the liboqs to your hom
 ```
 [root@alma9 ~]# ./vagrant/demo/build_latest_oqs.sh
 ```
-When the `ninja install` command finishes it should install everything to `/opt/liboqs`. There are additional scripts in the [demo](../../demo) directory and for building other components. 
+When the `ninja install` command finishes it should install everything to `/opt/liboqs`. 
+
+WIP: There are additional scripts in the Demo directory and for building other components. 
 
 # Whats next?
 Pick your implementation to test functionality.
@@ -66,7 +68,7 @@ Pick your implementation to test functionality.
 ## Openssl Implementation details
 [Openssl 3.X via Providers](OQS-PROVIDER.md)  
 [Openssl 1.1.X via compilation](OQS-STATIC-111.md)  
-See: [etc](../../etc) folder for Openssl 1.1.1/3.X compatible Openssl Conf files for CA/x509 operations.  
+WIP: folder for Openssl 1.1.1/3.X compatible Openssl Conf files for CA/x509 operations.  
 
 ## Demo Implementations by the Open Quantum Group
 https://github.com/open-quantum-safe/oqs-demos
