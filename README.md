@@ -2,7 +2,7 @@
 # Post Quantum Cryptography Research 
 
 # Implemenations/HowTos:
-[liboqs/Open Quantum Safe Cryptographic Library](https://github.com/melinko2003/research-assets/blob/main/docs/OQS-README.md)  
+[liboqs/Open Quantum Safe Cryptographic Library](docs/OQS-README.md)  
 
 # NIST 
 ## 2022 Finalists
